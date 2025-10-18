@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   title: 'Blynn - AI Sales Suite',
   description: 'Your Sales Team, On Autopilot. AI that finds prospects, engages them, and books meetings 24/7.',
   generator: 'v0.app',
+  // Auto-deployment test - this will trigger a new build
 }
 
 export default function RootLayout({
