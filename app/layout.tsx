@@ -7,8 +7,8 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
+  title: 'Blynn - AI Sales Suite',
+  description: 'Your Sales Team, On Autopilot. AI that finds prospects, engages them, and books meetings 24/7.',
   generator: 'v0.app',
 }
 
@@ -22,6 +22,19 @@ export default function RootLayout({
       <body className={`font-sans antialiased`}>
         {children}
         <Analytics />
+        
+        {/* AI Chat SDR Widget */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.chatConfig = {
+                companyId: '8bbf80ef-d7d4-43f2-8bf1-3ddb61788117',
+                apiUrl: 'https://ai-sdr-production.up.railway.app'
+              };
+            `,
+          }}
+        />
+        <script src="https://ai-sdr-production.up.railway.app/widget.js" async />
       </body>
     </html>
   )

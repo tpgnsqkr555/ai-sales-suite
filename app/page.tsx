@@ -110,7 +110,7 @@ export default function Home() {
       <header className="fixed top-6 left-1/2 -translate-x-1/2 z-50 w-full max-w-3xl px-4">
         <nav className="flex items-center justify-between px-8 py-4 rounded-full bg-white/90 backdrop-blur-xl border border-blue-100/80 shadow-sm shadow-blue-100/50">
           <div className="flex items-center gap-2">
-            <img src="/blynn-logo.png" alt="Blynn" className="size-8" />
+            <img src="/blynn-logo.png?v=2" alt="Blynn" className="size-8" />
             <span className="font-semibold text-lg">Blynn</span>
           </div>
           <Button
@@ -255,7 +255,7 @@ export default function Home() {
             <div className="space-y-8">
               <div className="flex items-center gap-5 pb-8 border-b border-border/50">
                 <img
-                  src="/blynn-logo.png"
+                  src="/blynn-logo.png?v=2"
                   alt="Blynn"
                   className="size-16 rounded-full p-3 bg-white border border-border/30"
                 />
@@ -488,7 +488,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-5 gap-12 max-w-[1400px] mx-auto">
             <div className="md:col-span-1 space-y-4">
               <div className="flex items-center gap-2">
-                <img src="/blynn-logo.png" alt="Blynn" className="size-8" />
+                <img src="/blynn-logo.png?v=2" alt="Blynn" className="size-8" />
                 <span className="font-semibold text-lg">Blynn</span>
               </div>
               <p className="text-base text-muted-foreground leading-relaxed">
